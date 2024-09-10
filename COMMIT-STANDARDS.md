@@ -2,9 +2,8 @@
 
 ## Branches
 
-- **BE_dev** -> pr this branch for `backend` related features
-- **FE_dev** -> pr this branch for `frontend` related features
-- **dev** -> **dont touch** this branch (at least for now), we would be using this branch to test the whole application (both front end and backend toegether) before the application is moved to production branch
+- **Landing-Page** -> pr this branch for `landing page` related features
+- **dev** -> **dont touch** this branch (at least for now), we would be using this branch to test the whole application before the application is moved to production branch
 - **main** -> **dont touch** this branch, this is what is running in production.
 
 #### Note: On no occasion should anyone push their contributions to the `dev` or `main` branches while we are still working on the project, we would only merge tested and verified contributions to those two branches
@@ -15,20 +14,19 @@ This project is open to contributions, but it is recommended to create an issue 
 
 ## Contribution Guidelines
 
-1. Clone the repo `git clone https://github.com/The-A-Team-2023/Easy-Market`.
+1. Clone the repo `git clone https://github.com/EasyMarketPlace/Landing-Page.git`.
 
 2. Open your terminal and checkout to the specified collaboration branch for your track
 
-- for front end devs run: `git branch FE_dev`
-- for back end devs run: `git branch BE_dev`
+- for brancing to repo run: `git branch Landing-Page`
 
-3. Update your collaboration branch with pull origin `git pull origin FE_dev` or `git pull origin BE_dev` as the case may be
+3. Update your collaboration branch with pull origin `git pull origin Landing-Page`.
 4. Create a new branch for the task you were assigned to, eg : `git checkout -b homepage-header`
 5. After making changes, do `git add .`
 6. Commit your changes with a descriptive commit message : `git commit -m "your commit message"`.
 7. To make sure there are no conflicts, run `git pull upstream FE_dev` or `git pull upstream BE_dev` as the case may be.
 8. Push changes to your new branch, run `git push -u origin homepage-header`.
-9. Create a pull request to your track's collaboration branch (`FE_dev` or `BE_dev`), **not `dev` branch and not `main`**.
+9. Create a pull request to your track's collaboration branch (`Landing-Page`), **not `dev` branch and not `main`**.
 10. Ensure to describe your pull request.
 11. > If your pull request is connected to a particular issue, do well to connect your PR with the issue by passing along the issue number in your PR desription.
 
