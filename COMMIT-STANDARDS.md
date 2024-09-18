@@ -24,7 +24,7 @@ This project is open to contributions, but it is recommended to create an issue 
 4. Create a new branch for the task you were assigned to, eg : `git checkout -b homepage-header`
 5. After making changes, do `git add .`
 6. Commit your changes with a descriptive commit message : `git commit -m "your commit message"`.
-7. To make sure there are no conflicts, run `git pull upstream FE_dev` or `git pull upstream BE_dev` as the case may be.
+7. To make sure there are no conflicts, run `git pull upstream Landing-Page`  as the case may be.
 8. Push changes to your new branch, run `git push -u origin homepage-header`.
 9. Create a pull request to your track's collaboration branch (`Landing-Page`), **not `dev` branch and not `main`**.
 10. Ensure to describe your pull request.
