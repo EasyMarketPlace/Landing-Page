@@ -1,38 +1,119 @@
+/* Navbar Customization */
+.navbar {
+  justify-content: center; 
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  color: #fefefe;
+  margin: 0 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d662;
+}
+
+/* Main App Styles */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Darker Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202331; 
+  color: #fefefe;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  padding: 40px 20px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1, h2 {
+  color: #00d662;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #dcdde2;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 10px;
+  margin: auto 10px;
+}
+
+/* Custom button stylings */
+button {
+  border: none;
+  border-radius: 12px; 
+  margin: 0 15px;
+  padding: 10px 20px; 
+}
+
+/* Introduction section */
+#introduction h1 {
+  /* text-align: center; */
+  margin: 30px auto;
+  line-height: 80px;
+}
+
+#introduction p {
+  margin-bottom: 5px;
+  margin-top: 80px;
+}
+
+/* Card stylings */
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  gap: 20px; 
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container .card {
+  background-color: #18191e; 
+  color: #fefefe;
+  padding: 20px;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Text with dynamic colors */
+.span-blueColor {
+  color: #188dcf; /* Blue */
+}
+
+.span-greenColor {
+  color: #00d662; /* Green */
+}
+
+.span-gradient {
+  background: linear-gradient(90deg, #188dcf, #00d662); /* Blue-green gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  section {
+    padding: 20px;
   }
 }
+
